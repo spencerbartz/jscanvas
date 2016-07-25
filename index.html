@@ -3,15 +3,16 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="canvas_util.js"></script>
+<script type="text/javascript" src="circle.js"></script>
+<script type="text/javascript" src="rectangle.js"></script>
 </head>
 
 <body>
 	<div>
-		<canvas id="mycanvas" width="300" height="200" style="border:1px solid #000000;">Your browser does not support the HTML5 canvas tag.</canvas>
-
-	<canvas id="myCanvas" width="578" height="200" style="border:1px solid #000000;"></canvas>
-	<script type="text/javascript">draw();startAnimation();</script></div>
+		<canvas id="circle-canvas" width="300" height="200" style="border:1px solid #000000;">Your browser does not support the HTML5 canvas tag.</canvas>
+		<canvas id="rectangle-canvas" width="578" height="200" style="border:1px solid #000000;">Your browser does not support the HTML5 canvas tag.</canvas>
+	<script type="text/javascript">circle.draw();startAnimation();</script></div>
 	</div>
 
 
