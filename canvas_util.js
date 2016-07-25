@@ -1,6 +1,7 @@
-	function getMousePos(canvas, evt) {
-		var rect = canvas.getBoundingClientRect();
-		return {x: evt.clientX - rect.left, y: evt.clientY - rect.top};
+	function getMousePos(canvas, e) {
+		//var rect = canvas.getBoundingClientRect();
+		//return {x: e.clientX - rect.left, y: e.clientY - rect.top};
+		return {x: e.clientX, y: e.clientY};
 	}
 	
 	//This is the guts of the animation
